@@ -119,7 +119,12 @@ const Contact = () => {
           </LinkItem>
           <LinkItem>
             <ResumeIcon />
-            <SubText as="a" href="/VP-RESUME.pdf" download>
+            <SubText
+              as="a"
+              href="https://drive.google.com/file/d/1hwwHAGyvbGsliqXoHujYgnRhJ3tjlHlb/view?usp=sharing"
+              target="_blank"
+              download
+            >
               Resume
             </SubText>
           </LinkItem>

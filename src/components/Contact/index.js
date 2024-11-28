@@ -119,7 +119,9 @@ const Contact = () => {
           </LinkItem>
           <LinkItem>
             <ResumeIcon />
-            <SubText>Resume</SubText>
+            <SubText as="a" href="/VP-RESUME.pdf" download>
+              Resume
+            </SubText>
           </LinkItem>
         </LinkContainer>
       </ContactContainer>
